@@ -16,3 +16,6 @@ else(${AZI_STATIC_LIBS})
 endif(${AZI_STATIC_LIBS})
  
 include_directories(${MAGICK_INCLUDE} ${MAGICKPP_INCLUDE})
+
+macro(AziMagick)
+endmacro(AziMagick)
